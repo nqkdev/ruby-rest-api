@@ -6,7 +6,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'messagebird/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'messagebird-rest'
+  s.name        = 'messagebird-rest-test'
   s.version     = MessageBird::Version::STRING
   s.platform    = Gem::Platform::RUBY
   s.required_ruby_version = '>= 2.0'
